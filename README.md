@@ -1,5 +1,5 @@
 ## CACHING WITH REDIS
 
 ### INSTALL
-npm install @vtjs/cache
+npm install @hiennc/cache
 

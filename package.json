@@ -1,6 +1,6 @@
 {
-  "name": "@vtjs/cache",
-  "version": "0.1.5",
+  "name": "@hiennc/cache",
+  "version": "1.0.0",
   "description": "Redis cache",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -18,13 +18,13 @@
     "cache-project",
     "typescript"
   ],
-  "author": "Nguyen Van Tuan",
+  "author": "Hien Nguyen",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vtuanjs/cache.git"
+    "url": "git+https://github.com/hiennchat/cache.git"
   },
-  "homepage": "https://github.com/vtuanjs/cache#readme",
+  "homepage": "https://github.com/hiennchat/cache#readme",
   "devDependencies": {
     "@types/chai": "^4.2.18",
     "@types/mocha": "^8.2.2",
@@ -43,5 +43,9 @@
   },
   "dependencies": {
     "redis": "^3.1.2"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
